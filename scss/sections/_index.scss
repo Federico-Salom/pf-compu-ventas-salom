@@ -1,0 +1,85 @@
+/* Cambios al index */
+
+.index__article__grid {
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 70px 1fr 70px 1fr;
+    grid-template-areas: 
+    "titulo__productos titulo__productos titulo__productos titulo__productos titulo__productos titulo__productos"
+    "producto1 producto2 producto3 producto4 producto5 producto6"
+    "titulo__combos titulo__combos titulo__combos titulo__combos parrafo parrafo"
+    "combo1 combo2 combo3 combo4 parrafo parrafo";
+    align-items: center;
+    justify-items: center;
+    font-size: 25px;
+    div {
+        border: 3px solid white;
+        background-color: rgb(255, 224, 224);
+        display: flex;
+        align-self: stretch;
+        justify-self: stretch;
+        align-items: center;
+        justify-content: center;
+        margin: 15px;
+        font-family: 'Mulish', sans-serif;
+    }
+    div:hover {
+        color: rgb(255, 98, 98);
+        box-shadow: 0 4px 16px rgb(255, 145, 145);
+        transition: all 0.2s ease;
+    }
+    div:active {
+        background-color: rgb(255, 161, 161);
+        color: white;
+        transition: all 0.2s ease;
+    }
+}
+.index__grid__titulo__productos {
+    grid-area: titulo__productos;
+    font-size: 40px;
+    font-family: 'Mulish', sans-serif;
+}
+.index__grid__producto1 {
+    grid-area: producto1;
+}
+.index__grid__producto2 {
+    grid-area: producto2;
+}
+.index__grid__producto3 {
+    grid-area: producto3;
+}
+.index__grid__producto4 {
+    grid-area: producto4;
+}
+.index__grid__producto5 {
+    grid-area: producto5;
+}
+.index__grid__producto6 {
+    grid-area: producto6;
+}
+.index__grid__titulo__combos {
+    grid-area: titulo__combos;
+    font-size: 30px;
+    font-family: 'Mulish', sans-serif;
+}
+.index__grid__combo1 {
+    grid-area: combo1;
+}
+.index__grid__combo2 {
+    grid-area: combo2;
+}
+.index__grid__combo3 {
+    grid-area: combo3;
+}
+.index__grid__combo4 {
+    grid-area: combo4;
+}
+.index__grid__parrafo {
+    grid-area: parrafo;
+    justify-self: stretch;
+    align-self: stretch;
+    margin: 20px;
+    font-family: 'Mulish', sans-serif;
+}

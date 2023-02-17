@@ -1,0 +1,119 @@
+/* Cambios a Contacto */
+
+.contacto__article__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto__main__flex {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.contacto__aside__imagen {
+    width: 40vw;
+    height: auto;
+    margin: 50px 0px 50px 0px;
+}
+.contacto__article__titulo {
+    font-size: 40px;
+    width: auto;
+    font-family: 'Mulish', sans-serif;
+    margin: 30px 0px 0px 0px;
+}
+.contacto__article__parrafo {
+    height: 100px;
+    width: 400px;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+    margin: 5px 0px 0px 0px;
+}
+.contacto__article__form {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    margin: 0px 0px 20px 0px;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    border: 5px solid white;
+    background-color: rgb(255, 222, 222);
+}
+.contacto__article__nombre {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    width: 270px;
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+}
+.contacto__article__telefono {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    width: 270px;
+    text-align: center;
+}
+.contacto__article__email {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    width: 270px;
+    text-align: center;
+}
+.contacto__article__textArea {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    width: 270px;
+    text-align: center;
+}
+.contacto__article__select {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    width: 200px;
+    text-align: center;
+}
+.contacto__article__div__radio {
+    div {
+        display: flex;
+        justify-content: center;
+    }
+}
+.contacto__article__radio {
+    margin: 4px 0px 0px 5px;
+}
+.contacto__article__enviar {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    border: 3px rgb(255, 255, 255) ridge;
+    background-color: rgba(255, 198, 187, 0.938);
+    padding: 7px;
+    :hover {
+        color: rgb(29, 0, 0);
+        box-shadow: 0 4px 16px rgb(219, 165, 165);
+        transition: all 0.2s ease;
+    }
+    :active {
+        background-color: rgb(253, 104, 104);
+        color: white;
+        transition: all 0.2s ease;
+    }
+}
+.contacto__article__restablecer {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    border: 3px rgb(255, 255, 255) ridge;
+    background-color: rgba(255, 198, 187, 0.938);
+    margin: 0px 0px 10px 0px;
+    padding: 7px;
+    :hover {
+        color: rgb(29, 0, 0);
+        box-shadow: 0 4px 16px rgb(219, 165, 165);
+        transition: all 0.2s ease;
+    }
+    :active {
+        background-color: rgb(253, 104, 104);
+        color: white;
+        transition: all 0.2s ease;
+    }
+}

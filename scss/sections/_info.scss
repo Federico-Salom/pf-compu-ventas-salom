@@ -1,0 +1,31 @@
+/* Cambios a Info */
+
+.info__article__titulo {
+    width: 45vw;
+    font-size: 35px;
+    font-family: 'Mulish', sans-serif;
+    margin: 30px 0px 0px 30px;
+}
+.info__article__parrafo {
+    height: auto;
+    width: 35vw;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+    margin: 5px 0px 20px 40px;
+}
+.info__main__flex {
+    display: flex;
+    margin: 0px 20px 0px 0px;
+}
+.info__aside__imagen {
+    width: 100%;
+    height: auto;
+    margin: 50px 0px 50px 0px;
+    object-fit: contain;
+}
+.info__aside__flex {
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px 0px 20px;
+
+}

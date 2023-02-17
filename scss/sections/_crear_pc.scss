@@ -1,0 +1,140 @@
+/* Cambios a Crear_pc */
+
+.crear_pc__main__flex {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+}
+.crear_pc__article__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.crear_pc__article__titulo {
+    font-size: 30px;
+    width: 75vh;
+    font-family: 'Mulish', sans-serif;
+    margin: 30px 0px 0px 0px;
+}
+.crear_pc__article__parrafo {
+    height: 120px;
+    width: 600px;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+    margin: 5px 0px 0px 0px;
+}
+.crear_pc__aside__form {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    margin: 40px 0px 40px 0px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    border: 5px solid white;
+    background-color: rgb(255, 222, 222);
+}
+.crear_pc__aside__datosUsuario {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 40px;
+    margin: 20px 0px 0px 0px;
+    input {
+        text-align: center;
+    }
+}
+.crear_pc__aside__selectComponentes {
+    display: flex;
+    width: 800px;
+    height: 160px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+.crear_pc__aside__botones {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 50px;
+    margin: 0px 0px 20px 0px;
+}
+.crear_pc__aside__nombre {
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    width: 270px;
+    margin: 0px 0px 0px 0px;
+}
+.crear_pc__aside__telefono {
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    width: 270px;
+}
+.crear_pc__aside__email {
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    width: 270px;
+}
+.crear_pc__aside__select {
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+}
+.crear_pc__aside__select__pais {
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    width: 350px;
+    height: 40px;
+    margin: 0px 0px 30px 0px;
+}
+.crear_pc__aside__comprar {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    border: 3px rgb(255, 255, 255) ridge;
+    background-color: rgba(255, 198, 187, 0.938);
+    width: 120px;
+    height: 50px;
+    :hover {
+        color: rgb(29, 0, 0);
+        box-shadow: 0 4px 16px rgb(219, 165, 165);
+        transition: all 0.2s ease;
+    }
+    :active {
+        background-color: rgb(253, 104, 104);
+        color: white;
+        transition: all 0.2s ease;
+    }
+}
+.crear_pc__aside__restablecer {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    border: 3px rgb(255, 255, 255) ridge;
+    background-color: rgba(255, 198, 187, 0.938);
+    margin: 0px 0px 0px 0px;
+    width: 120px;
+    height: 50px;
+    :hover {
+        color: rgb(29, 0, 0);
+        box-shadow: 0 4px 16px rgb(219, 165, 165);
+        transition: all 0.2s ease;
+    }
+    :active {
+        background-color: rgb(253, 104, 104);
+        color: white;
+        transition: all 0.2s ease;
+    }
+}
+.crear_pc__article__imagen {
+    width: 60vh;
+    height: auto;
+}

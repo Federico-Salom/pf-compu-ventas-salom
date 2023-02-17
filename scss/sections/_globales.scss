@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;1,500&family=Roboto:wght@300&display=swap');
+@import 'animate.css';
+
+/* Variables */
+
+$color-oscuro: rgb(194, 93, 72);
+$color-intermedio: rgb(255, 124, 115);
+$color-claro: rgb(255, 198, 187);
+
+/* Cambios a Animaciones */
+
+.animate__animated.animate__backInLeft {
+    --animate-duration: 2s;
+}
+.animate__animated.animate__backInDown {
+    --animate-duration: 2s;
+}
+
+/* Cambios globales */
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    box-sizing: unset !important;
+}
+
+body {
+    background-color: $color-claro;
+}
+header{
+    background-color: $color-oscuro;
+    nav{
+        background-color: $color-intermedio;
+    }
+}
+footer{
+    background-color: $color-oscuro;
+    height: 25vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-rows: 1fr ;
+    a{
+        img{
+            height: 70px;
+            width: 70px;
+        }
+    }
+}
+.footer__grid__redes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin: 8px 0px 0px 0px;
+}
+.footer__marca {
+    display: flex;
+    font-size: 60px;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    font-family: none;
+    color: black;
+}
+.footer__parrafo {
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.header__logo{
+    padding: 10px;
+    height: 90px;
+    width: 90px;
+}
+.header__marca{
+    position: absolute;
+    top: 25px;
+    left: 110px;
+    font-size: 50px;
+    font-style: italic;
+    font-family: none;
+    color: black;
+}
+.header__menuNav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    list-style: none;
+    height: 15vh;
+    padding: 20px 0px 20px 0px;
+    a{
+        color: black;
+        text-decoration: none;
+        font-family: 'Mulish', sans-serif;
+    }
+}
+.header__menuNav--activo{
+    font-weight: bold;
+}
+.header__nav__boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 285px;
+    height: 40px;
+    border: 3px rgb(255, 255, 255) ridge;
+    background-color: rgba(255, 198, 187, 0.938);
+    font-size: 27px;
+    :hover {
+        color: rgb(29, 0, 0);
+        box-shadow: 0 4px 16px rgb(219, 165, 165);
+        transition: all 0.2s ease;
+    }
+    :active {
+        background-color: rgb(253, 104, 104);
+        color: white;
+        transition: all 0.2s ease;
+    }
+}
