@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 70px 1fr 70px 1fr;
+    margin: 60px 0px 0px 0px;
     grid-template-areas: 
     "titulo__productos titulo__productos titulo__productos titulo__productos titulo__productos titulo__productos"
     "producto1 producto2 producto3 producto4 producto5 producto6"
@@ -15,15 +16,21 @@
     justify-items: center;
     font-size: 25px;
     div {
-        border: 3px solid white;
         background-color: rgb(255, 224, 224);
         display: flex;
         align-self: stretch;
         justify-self: stretch;
-        align-items: center;
         justify-content: center;
+        flex-direction: column;
+        text-align: center;
         margin: 15px;
         font-family: 'Mulish', sans-serif;
+        border: solid 3px white;
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            }
     }
     div:hover {
         color: rgb(255, 98, 98);
@@ -68,13 +75,13 @@
     grid-area: combo1;
 }
 .index__grid__combo2 {
-    grid-area: combo2;
+    grid-area: combo2;	
 }
 .index__grid__combo3 {
-    grid-area: combo3;
+    grid-area: combo3;	
 }
 .index__grid__combo4 {
-    grid-area: combo4;
+    grid-area: combo4;	
 }
 .index__grid__parrafo {
     grid-area: parrafo;

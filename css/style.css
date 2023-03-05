@@ -114,20 +114,26 @@ footer {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 70px 1fr 70px 1fr;
+  margin: 60px 0px 0px 0px;
   grid-template-areas: "titulo__productos titulo__productos titulo__productos titulo__productos titulo__productos titulo__productos" "producto1 producto2 producto3 producto4 producto5 producto6" "titulo__combos titulo__combos titulo__combos titulo__combos parrafo parrafo" "combo1 combo2 combo3 combo4 parrafo parrafo";
   align-items: center;
   justify-items: center;
   font-size: 25px; }
   .index__article__grid div {
-    border: 3px solid white;
     background-color: #ffe0e0;
     display: flex;
     align-self: stretch;
     justify-self: stretch;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
     margin: 15px;
-    font-family: 'Mulish', sans-serif; }
+    font-family: 'Mulish', sans-serif;
+    border: solid 3px white; }
+    .index__article__grid div img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
   .index__article__grid div:hover {
     color: #ff6262;
     box-shadow: 0 4px 16px #ff9191;
