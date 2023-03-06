@@ -15,7 +15,7 @@
     }
     .index__article__grid {
         width: 100%;
-        height: 1900px;
+        height: auto;
         display: grid; 
         grid-template-columns: 1fr 1fr; 
         grid-template-rows: 0.5fr 1.5fr 1.5fr 1.5fr 0.5fr 1.5fr 1.5fr 1fr; 
@@ -168,7 +168,7 @@
     .productos__aside__grid {
         display: grid;
         width: 100%;
-        height: 3500px;
+        height: auto;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 55px 1fr 1fr 55px 1fr 1fr 55px 1fr 1fr 55px 1fr 1fr 55px 1fr 1fr 55px 1fr 1fr 55px 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas:
@@ -525,7 +525,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+    }   
     .header__logo{
         padding: 10px 0px 0px 0px;
         height: 70px;
@@ -567,7 +567,7 @@
             align-items: center;
             justify-content: center;
             margin: 15px 35px 15px 35px;
-            height: 250px;
+            height: auto;
             font-family: 'Mulish', sans-serif;
         }
     }
@@ -609,7 +609,7 @@
             margin: 15px 35px 15px 35px;
             font-family: 'Mulish', sans-serif;
             font-size: 20px;
-            height: 250px;
+            height: auto;
         }
     }
     .crear_pc__aside__form {

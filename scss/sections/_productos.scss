@@ -22,7 +22,7 @@
 .productos__aside__grid {
     display: grid;
     width: 70%;
-    height: 3000px;
+    height: auto;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 55px 1fr 1fr 55px 1fr 1fr 55px 1fr 1fr 55px 1fr 1fr 1fr;
     grid-template-areas:
@@ -50,9 +50,16 @@
         justify-self: stretch;
         align-items: center;
         justify-content: center;
+        text-align: center;
         margin: 15px;
         font-family: 'Mulish', sans-serif;
         font-size: 20px;
+        flex-direction: column;
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            }
     }
     :hover {
         color: rgb(255, 98, 98);

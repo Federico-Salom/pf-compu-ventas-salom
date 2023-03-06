@@ -2,7 +2,7 @@
 
 .index__article__grid {
     width: 100%;
-    height: 800px;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 70px 1fr 70px 1fr;
